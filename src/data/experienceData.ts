@@ -2,7 +2,7 @@ import { ExperienceItem } from '../types/portfolio';
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
-    period: '2024 — Present',
+    period: '2026 — Present',
     role: 'Backend & Full-Stack Developer',
     company: 'Hyper Digitech',
     location: 'Hybrid / Remote',
@@ -16,7 +16,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     ]
   },
   {
-    period: '2023 — Present',
+    period: '2025 — Present',
     role: 'Freelance Full-Stack & Digital Solutions Developer',
     company: 'Independent Client Practice',
     location: 'Balasore, India (Global Availability)',

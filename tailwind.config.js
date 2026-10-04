@@ -41,7 +41,8 @@ export default {
       },
       fontFamily: {
         display: ['Syne', 'sans-serif'],
-        serifDisplay: ['Cinzel', 'serif'],
+        serifDisplay: ['"Instrument Serif"', '"Playfair Display"', 'Georgia', 'serif'],
+        serif: ['"Playfair Display"', '"Instrument Serif"', 'Georgia', 'serif'],
         sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
         mono: ['JetBrains Mono', 'Space Mono', 'monospace'],
       },

@@ -330,24 +330,24 @@ export const WelcomeIntro3D: React.FC<WelcomeIntro3DProps> = ({ onIntroComplete 
       {/* Welcome Headline */}
       <div
         ref={textWrapperRef}
-        className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-6 pointer-events-none z-30"
+        className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-6 pointer-events-none z-30 py-8 overflow-hidden"
         style={{ willChange: 'opacity, transform, filter' }}
       >
-        <h1 className="font-display font-black text-3xl xs:text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-white tracking-tight uppercase leading-none drop-shadow-[0_10px_35px_rgba(0,0,0,0.95)]">
+        <h1 className="font-display font-black text-3xl xs:text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[6.5rem] 2xl:text-[7.5rem] text-white tracking-tight uppercase leading-[0.95] drop-shadow-[0_10px_35px_rgba(0,0,0,0.95)]">
           WELCOME <br />
           TO <br />
-          <span className="bg-gradient-to-r from-[#FF4D00] via-[#FF9A00] via-[#38BDF8] to-[#00F0FF] bg-clip-text text-transparent italic font-serifDisplay lowercase text-4xl xs:text-5xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[10rem] font-normal">
+          <span className="block mt-1 sm:mt-2 bg-gradient-to-r from-[#FF4D00] via-[#FF9A00] via-[#38BDF8] to-[#00F0FF] bg-clip-text text-transparent italic font-serifDisplay lowercase text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[7.5rem] 2xl:text-[8.5rem] font-normal leading-[1.05] tracking-normal">
             the suman world.
           </span>
         </h1>
 
-        <p className="mt-4 sm:mt-6 text-zinc-300 font-mono text-[10px] sm:text-xs md:text-sm tracking-[0.25em] uppercase drop-shadow-md">
+        <p className="mt-3 sm:mt-5 text-zinc-300 font-mono text-[9px] sm:text-xs md:text-sm tracking-[0.25em] uppercase drop-shadow-md">
           ENTERPRISE SOFTWARE & WEB APPLICATIONS
         </p>
 
         <div
           ref={cueRef}
-          className="mt-6 sm:mt-10 flex flex-col items-center gap-1 text-zinc-400 font-mono text-[9px] sm:text-xs tracking-[0.25em] uppercase"
+          className="mt-4 sm:mt-8 flex flex-col items-center gap-1 text-zinc-400 font-mono text-[9px] sm:text-xs tracking-[0.25em] uppercase"
         >
           <span className="text-zinc-300 font-bold drop-shadow">
             {isDragging ? 'UNZIPPING JACKET...' : 'SCROLL OR PULL ZIPPER DOWN'}
